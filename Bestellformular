@@ -16,7 +16,7 @@
     header {
       background: #111;
       color: #fff;
-      padding: 2rem 1rem;
+      padding:  2rem 1rem;
       text-align: center;
     }
     section {
@@ -75,7 +75,10 @@
     </ul>
 
     <h2>Jetzt deinen AQUILA Owner-Ski vorbestellen</h2>
-    <form method="POST" action="mailto:info@anavon-ski.com" enctype="text/plain">
+    <!-- Form mit Formspree-Anbindung -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+
       <label>👤 Vorname / Nachname*
         <input type="text" name="Name" required>
       </label>
