@@ -76,7 +76,7 @@
 
     <h2>Jetzt deinen AQUILA Owner-Ski vorbestellen</h2>
     <!-- Form mit Formspree-Anbindung -->
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <form action="https://formspree.io/f/mwpqpeej" method="POST">
       <input type="hidden" name="_captcha" value="false">
 
       <label>👤 Vorname / Nachname*
