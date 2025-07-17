@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AQUILA Owner-Ski | ANAVON</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #111;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    form {
+      background: #f7f7f7;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 1rem;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 4px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #111;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .kontakt {
+      margin-top: 2rem;
+      background: #eee;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🦅 AQUILA – Der neue Owner-Ski von ANAVON</h1>
+    <p>Ein Statement auf der Piste – exklusiv für unsere Aktionärinnen und Aktionäre</p>
+  </header>
+
+  <section>
+    <h2>Warum der AQUILA?</h2>
+    <ul>
+      <li>✔ Limitierte Serie, nie im Handel</li>
+      <li>✔ Dein Name als Inlay – persönliches Symbol der Zugehörigkeit</li>
+      <li>✔ Spezialpreis für Aktionäre</li>
+      <li>✔ Auch andere Modelle wählbar – AQUILA bleibt die Krönung</li>
+    </ul>
+
+    <h2>Jetzt deinen AQUILA Owner-Ski vorbestellen</h2>
+    <form method="POST" action="mailto:info@anavon-ski.com" enctype="text/plain">
+      <label>👤 Vorname / Nachname*
+        <input type="text" name="Name" required>
+      </label>
+      <label>✉️ E-Mail*
+        <input type="email" name="E-Mail" required>
+      </label>
+      <label>📞 Telefon (optional)
+        <input type="tel" name="Telefon">
+      </label>
+      <label>🎿 Gewünschtes Modell*
+        <select name="Modell" required>
+          <option value="AQUILA Owner-Ski">AQUILA Owner-Ski (exklusiv)</option>
+          <option value="Classic Design Ski">ANAVON Classic Design</option>
+          <option value="Individuell personalisierter Ski">Individuelles Modell</option>
+        </select>
+      </label>
+      <label>🔠 Wunsch-Inlay (Name oder Initialen)
+        <input type="text" name="Inlay" placeholder="z. B. M. Muster oder M.M.">
+      </label>
+      <label>📝 Weitere Anmerkungen
+        <textarea name="Anmerkungen" rows="4"></textarea>
+      </label>
+      <button type="submit">Jetzt unverbindlich bestellen</button>
+    </form>
+
+    <div class="kontakt">
+      <h3>📩 Kontakt & Bestellung</h3>
+      <p>Du möchtest direkt per WhatsApp bestellen oder Fragen klären?<br>
+         📱 <strong>+41 78 883 12 56</strong><br>
+         📧 <strong>info@anavon-ski.com</strong></p>
+    </div>
+  </section>
+</body>
+</html>
